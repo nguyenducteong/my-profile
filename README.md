@@ -12,9 +12,16 @@
 3. Vào `Settings` -> `Pages`, chọn nguồn `main` hoặc `master`, sau đó lưu.
 4. GitHub Pages sẽ cung cấp URL để mọi người truy cập.
 
+## Thiết lập Custom Domain (teongprofile.com)
+1. Mua domain `teongprofile.com` từ Namecheap hoặc GoDaddy.
+2. Cấu hình DNS: Thêm 4 records A trỏ tới GitHub IPs (185.199.108.153, etc.) và CNAME cho www.
+3. Vào repository `Settings` -> `Pages` -> nhập `teongprofile.com` vào Custom domain.
+4. Đợi 24-48 giờ để DNS cập nhật.
+
 ## Đã chuẩn bị xong
 - Website đã có đầy đủ `index.html` và `styles.css`.
 - Repository Git đã được khởi tạo trong thư mục này.
+- File CNAME đã được thêm cho custom domain.
 
 ### Nếu bạn dùng Git lần đầu
 ```powershell
